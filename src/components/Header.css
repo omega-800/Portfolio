@@ -1,0 +1,12 @@
+.header{
+    width:100%;
+    height:100%;
+    background-color:var(--lightest);
+    color:var(--darkest);
+}
+.header_title{
+
+}
+.header_image{
+    object-fit: contain;
+}

@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -12,33 +13,45 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <Navbar />
         <Switch>
           <Route path="/">
-            <Header/>
-            <Home/>
-            <Footer/>
+            <Header 
+              title="About me"
+              photo=""
+            />
+            <Home />
           </Route>
           <Route path="/career">
-            <Header/>
-            <Career/>
-            <Footer/>
+            <Header 
+              title="Career"
+              photo=""
+            />
+            <Career />
           </Route>
           <Route path="/certificates">
-            <Header/>
-            <Certificates/>
-            <Footer/>
+            <Header 
+              title="Certificates"
+              photo=""
+            />
+            <Certificates />
           </Route>
           <Route path="/projects">
-            <Header/>
-            <Projects/>
-            <Footer/>
+            <Header 
+              title="Projects"
+              photo=""
+            />
+            <Projects />
           </Route>
           <Route path="/art">
-            <Header/>
-            <Art/>
-            <Footer/>
+            <Header 
+              title="Art"
+              photo=""
+            />
+            <Art />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </BrowserRouter>
   );

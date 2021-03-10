@@ -1,9 +1,13 @@
 import React from 'react';
 import './Header.css';
 
-function Header(){
+function Header({title, photo}){
     return(
-        <h1>Header</h1>
+        <div className="header">
+            <h1 className="header_title">{title}</h1>   
+            <img alt="" className="header_image" src={photo}></img>     
+        </div>
+        
     )
 }
 
