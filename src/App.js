@@ -3,19 +3,19 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/Home';
-import Career from './components/Career';
-import Certificates from './components/Certificates';
-import Projects from './components/Projects';
-import Art from './components/Art';
+import Home from './pages/Home';
+import Career from './pages/Career';
+import Certificates from './pages/Certificates';
+import Projects from './pages/Projects';
+import Art from './pages/Art';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
+    <div className="App">
+      <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Header 
               title="About me"
               photo=""
@@ -52,8 +52,8 @@ function App() {
           </Route>
         </Switch>
         <Footer />
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   );
 }
 

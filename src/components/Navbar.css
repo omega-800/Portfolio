@@ -1,13 +1,17 @@
 
 .navbar{
-    width:100%;
+    background-color:var(--lightest);
+    padding: .5rem;
+    margin:1rem;
 }
 .navbar_top{
-    width:100%;
     position:sticky;
     display:flex;
     align-items: center;
     justify-content:space-around;
+}
+.navbar_top a:hover{
+    background-color: var(--lighter);
 }
 .navbar_top_link{
     text-decoration: none;
@@ -22,19 +26,18 @@
     cursor:pointer;
 }
 .navbar_content{
-    width:100%;
     height:0;
-    background-color: var(--lighter);
+    background-color: var(--lightest);
     position:relative;
     display: none;
 }
 .navbar_content_close{
     border:none;
     color:var(--darkest);
-    background-color: var(--lightest);
+    background-color: var(--lighter);
 }
 .show_navbar{
-    height:100%;
+    height:100vh;
     display: flex;
     flex-direction: column;
     align-items: center;

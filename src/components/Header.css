@@ -1,8 +1,10 @@
 .header{
-    width:100%;
-    height:100%;
     background-color:var(--lightest);
     color:var(--darkest);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:1rem;
 }
 .header_title{
 
