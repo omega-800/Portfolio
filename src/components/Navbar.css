@@ -1,8 +1,8 @@
 
 .navbar{
     background-color:var(--lightest);
-    padding: .5rem;
-    margin:1rem;
+    padding: .5em;
+    margin:1em;
 }
 .navbar_top{
     position:sticky;

@@ -18,35 +18,30 @@ function App() {
           <Route exact path="/">
             <Header 
               title="About me"
-              photo=""
             />
             <Home />
           </Route>
           <Route path="/career">
             <Header 
               title="Career"
-              photo=""
             />
             <Career />
           </Route>
           <Route path="/certificates">
             <Header 
               title="Certificates"
-              photo=""
             />
             <Certificates />
           </Route>
           <Route path="/projects">
             <Header 
               title="Projects"
-              photo=""
             />
             <Projects />
           </Route>
           <Route path="/art">
             <Header 
               title="Art"
-              photo=""
             />
             <Art />
           </Route>

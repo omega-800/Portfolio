@@ -1,14 +1,9 @@
 import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
-import "react-alice-carousel/lib/alice-carousel.css";
+import Carousel from '../components/Carousel';
 import './Certificates.css';
 
 function Certificates(){
     const schoolSlideImages = [
-        { src: 'content/zeugnisse/0_1_Berufsschule.jpg' },
-        { src: 'content/zeugnisse/0_2_Kantonsschule.jpg' },
-        { src: 'content/zeugnisse/0_3_Sekundarschule.jpg' },
-        { src: 'content/zeugnisse/0_4_Gymnasium.jpg' },
         { src: 'content/zeugnisse/1_0_bzz.jpg' },
         { src: 'content/zeugnisse/1_0_zli.jpg' },
         { src: 'content/zeugnisse/2_1_18-19_f.jpg' },
@@ -23,42 +18,42 @@ function Certificates(){
         { src: 'content/zeugnisse/4_4_14-15_f.jpg' }
       ];
       const langSlideImages = [
-          { src: 'content/sprachen/0_1_Französisch.jpg' },
-          { src: 'content/sprachen/0_2_Russisch.jpg' },
           { src: 'content/sprachen/1_Französisch_1.jpg' },
           { src: 'content/sprachen/1_Französisch_2.jpg' },
           { src: 'content/sprachen/2_Russisch_1.jpg' },
           { src: 'content/sprachen/2_Russisch_2.jpg' }
         ];
     const diplSlideImages = [
-        { src: 'content/diplome/0_1_ECDL.jpg' },
-        { src: 'content/diplome/0_2_Abacus.jpg' },
-        { src: 'content/diplome/0_3_Multicheck.jpg' },
         { src: 'content/diplome/1_ECDL.jpg' },
         { src: 'content/diplome/2_Abacus.jpg' },
         { src: 'content/diplome/3_Multicheck_1.jpg' },
-        { src: 'content/diplome/3_Multicheck_2.jpg' },
-        { src: 'content/diplome/3_Multicheck_3.jpg' },
-        { src: 'content/diplome/3_Multicheck_4.jpg' }
+        { src: 'content/diplome/3_Multicheck_2.jpg' }
       ];
     return(
         <div className="certificates">
             <div className="certificates_about section">
-                <div className="box slide">
-                    {schoolSlideImages.map((image, index) => {
-                        <img src={image.src} key={index} alt="" />
-                    })}
-                </div>
+                <h2>Lorem Ipsum</h2>
             </div>
             <div className="certificates_school section">
-        
-
+                <h2>Zeugnisse</h2>
+                <Carousel 
+                    title="Zeugnisse des Gymnasiums, Sekundarschule und Informatikmittelschule"
+                    slides={schoolSlideImages}
+                />
             </div>
             <div className="certificates_lang section">
-
+                <h2>Sprachen</h2>
+                <Carousel 
+                    title="Attestate für Englisch, Französisch und Russisch"
+                    slides={langSlideImages}
+                />
             </div>
             <div className="certificates_dipl section">
-
+                <h2>Diplome</h2>
+                <Carousel 
+                    title="Diplome von Abacus, ECDL und Multicheck"
+                    slides={diplSlideImages}
+                />
             </div>
         </div>
     )
