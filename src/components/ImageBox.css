@@ -1,0 +1,42 @@
+.imgbox:hover{
+  transform: scale(1.01);
+  transition: .1s;
+  box-shadow: 3px 3px 5px 0 var(--darkest);
+}
+.imgbox_title{
+  width: 90%;
+  background-color: var(--lighter);
+  padding:5%;
+  display: flex;
+  justify-content: center;
+  color:var(--darkest);
+}
+.imgbox_title h4,
+.imgbox_title h3{
+  margin:0;
+}
+.imgbox_content{
+  width:90%;
+  padding:5%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.imgbox_content{
+  text-align: center;
+}
+.imgbox_content img{
+  object-fit:contain;
+  width:100%;
+}
+.imgbox{
+  background-color: var(--lightest);
+  color: var(--darkest);
+  width:80%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align: justify;
+  margin: .5em;
+}

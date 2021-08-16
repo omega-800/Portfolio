@@ -10,224 +10,124 @@ function Projects(){
             </div>
             <div className="projects_react section">
                 <h2>React</h2>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Shirt Shop</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>SchoolStuff</h4>
-                    </div>
-                    <div className="imgbox_content">
-
-                    </div>
-                </div>
+                <ImageBox
+                    title="Shirt Shop"
+                    image=""
+                />
+                <ImageBox
+                    title="SchoolStuff"
+                    image=""
+                />
             </div>
-            <div className="projects_h
-            tml section">
+            <div className="projects_html section">
                 <h2>HTML</h2>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Immobilien</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/html_dad.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Jukebox</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/html_jukebox.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>RusFrauenTreff</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/html_rus.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Drugpedia</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/html_drugpedia.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Avocado</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/html_avocado.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Vallora</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/html_vallora.png" />
-                    </div>
-                </div>
+                <ImageBox
+                    title="Immobilien"
+                    image="content/projekte/html_dad.png"
+                />
+                <ImageBox
+                    title="Jukebox"
+                    image="content/projekte/html_jukebox.png"
+                />
+                <ImageBox
+                    title="RusFrauenTreff"
+                    image="content/projekte/html_rus.png"
+                />
+                <ImageBox
+                    title="Drugpedia"
+                    image="content/projekte/html_drugpedia.png"
+                />
+                <ImageBox
+                    title="Avocado"
+                    image="content/projekte/html_avocado.png"
+                />
+                <ImageBox
+                    title="Vallora"
+                    image="content/projekte/html_vallora.png"
+                />
             </div>
             <div className="projects_glassfish section">
                 <h2>Glassfish</h2>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Books</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/glassfish_books.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Books2</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/glassfish_books2.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Books3</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/glassfish_books3.png" />
-                    </div>
-                </div>
+                <ImageBox
+                    title="Books"
+                    image="content/projekte/glassfish_books.png"
+                />
+                <ImageBox
+                    title="Books2"
+                    image="content/projekte/glassfish_books2.png"
+                />
+                <ImageBox
+                    title="Books3"
+                    image="content/projekte/glassfish_books3.png"
+                />
             </div>
             <div className="projects_php section">
                 <h2>PHP</h2>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Curriculum Vitae 1.0</h4>
-                    </div>
-                    <div className="imgbox_content">
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Karten</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/php_karten.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Galerie</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/php_galerie.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Formulare</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/php_formulare.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Formulare2</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/php_formulare2.png" />
-                    </div>
-                </div>
+                <ImageBox
+                    title="Curriculum Vitae 1.0"
+                    image=""
+                />
+                <ImageBox
+                    title="Karten"
+                    image="content/projekte/php_karten.png"
+                />
+                <ImageBox
+                    title="Galerie"
+                    image="content/projekte/php_galerie.png"
+                />
+                <ImageBox
+                    title="Formulare"
+                    image="content/projekte/php_formulare.png"
+                />
+                <ImageBox
+                    title="Formulare2"
+                    image="content/projekte/php_formulare2.png"
+                />
             </div>
             <div className="projects_python section">
                 <h2>Python</h2>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Automation</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="" />
-                    </div>
-                </div>
+                <ImageBox
+                    title="Automation"
+                    image=""
+                />
             </div>
             <div className="projects_cs section">
                 <h2>CSharp</h2>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Rogue Dungeon</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/cSharp_dungeon.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Rocket</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/cSharp_rocket.png" />
-                    </div>
-                </div>
+                <ImageBox
+                    title="Rogue Dungeon"
+                    image="content/projekte/cSharp_dungeon.png"
+                />
+                <ImageBox
+                    title="Rocket"
+                    image="content/projekte/cSharp_rocket.png"
+                />
             </div>
             <div className="projects_java section">
                 <h2>Java</h2>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>UNO</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/java_uno.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Klassen</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/java_klassen.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Klassen2</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/java_klassen2.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Swing</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/java_swing.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Sort</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/java_sort.png" />
-                    </div>
-                </div>
-                <div className="imgbox">
-                    <div className="box_title">
-                        <h4>Konverter</h4>
-                    </div>
-                    <div className="imgbox_content">
-                        <img src="content/projekte/java_konverter.png" />
-                    </div>
-                </div>
+                <ImageBox
+                    title="UNO"
+                    image="content/projekte/java_uno.png"
+                />
+                <ImageBox
+                    title="Klassen"
+                    image="content/projekte/java_klassen.png"
+                />
+                <ImageBox
+                    title="Klassen2"
+                    image="content/projekte/java_klassen2.png"
+                />
+                <ImageBox
+                    title="Swing"
+                    image="content/projekte/java_swing.png"
+                />
+                <ImageBox
+                    title="Sort"
+                    image="content/projekte/java_sort.png"
+                />
+                <ImageBox
+                    title="Converter"
+                    image="content/projekte/java_konverter.png"
+                />
             </div>
         </div>
     )

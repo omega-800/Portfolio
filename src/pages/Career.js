@@ -16,6 +16,7 @@ function Career(){
                         <p>Auftraggeber: Ernesto Vargas</p>
 						<p>Der Auftrag war es, Kleidungsstücke aus verschiedenen Kollektionen auslesen, die Bilder bearbeiten und auf die Homepage hochladen. Dafür habe ich ein Script geschrieben, welches die Informationen automatisch ausliest, die Beschreibung und schlussendlich das Produkt auf der Wordpress Webseite erstellt.</p>
                         <p>Tools: Python, Selenium, HTML, Photoshop</p>
+                        <button>Zum Projekt</button>
                     </div>
 				</div>
                 <div className="box">
@@ -26,6 +27,7 @@ function Career(){
                         <p>Auftraggeber: Vater</p>
                         <p>Für die Geschäftsidee meines Vaters entwickelte ich eine Webapplikation, auf der er seine in der USA zu vermietenden Wohnungen online stellen kann, damit diese besser für die Öffentlichkeit ersichtlich sind.</p>
                         <p>Tools: HTML, CSS, PHP, JavaScript</p>
+                        <button>Zum Projekt</button>
                     </div>
 				</div>
                 <div className="box">
@@ -36,6 +38,7 @@ function Career(){
                         <p>Auftraggeber: JMBF Consulting</p>
                         <p>Momentan entwickle ich eine React-App, auf welcher Gebrauchtwaren sowie weitere Dienstleistungen Angeboten werden.</p>
                         <p>Tools: React, HTML, CSS, JavaScript</p>
+                        <button>Zum Projekt</button>
                     </div>
 				</div>
                 <div className="box">
@@ -46,6 +49,7 @@ function Career(){
                         <p>Auftraggeber: Cubera Solutions AG</p>
                         <p>Der Probeauftrag bei Cubera bestand darin, eine Applikation herzustellen, die den Bitcoin Kurs grafisch anzeigt und eine Funktion hat, diesen in andere Währungen umzurechnen.</p>
                         <p>Tools: HTML, CSS, PHP, JavaScript</p>
+                        <button>Zum Projekt</button>
                     </div>
 				</div>
                 <div className="box">
@@ -56,6 +60,7 @@ function Career(){
                         <p>Auftraggeber: RusFrauenTreff</p>
                         <p>Für diese Organisation entwickelte ich eine Homepage, auf welcher alle Events und Informationen ersichtlich waren.</p>
                         <p>Tools: HTML, CSS, JavaScript</p>
+                        <button>Zum Projekt</button>
                     </div>
 				</div>
             </div>

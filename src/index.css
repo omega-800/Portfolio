@@ -30,10 +30,11 @@ th,td{
   align-items: space-around;
   justify-content: space-around;
   flex-wrap:wrap;
+  height:100vh;
 }
 .section h2{
   text-align: center;
-  flex-basis:100%;
+  width:100%;
   color:var(--darkest);
 }
 .box{
@@ -48,8 +49,7 @@ th,td{
   align-items:center;
   text-align: justify;
 }
-.box:hover, 
-.imgbox:hover{
+.box:hover{
   transform: scale(1.01);
   transition: .1s;
   box-shadow: 3px 3px 5px 0 var(--darkest);
@@ -69,29 +69,11 @@ th,td{
 .box table, button{
   width:100%;
 }
-.box_content, 
-.imgbox_content{
+.box_content{
   width:90%;
   padding:5%;
   display: flex;
   justify-content: center;
   align-items:center;
   flex-direction: column;
-}
-.imgbox_content{
-  text-align: center;
-}
-.imgbox_content img{
-  object-fit:contain;
-  width:100%;
-}
-.imgbox{
-  background-color: var(--lightest);
-  color: var(--darkest);
-  width:80%;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  text-align: justify;
-  margin: .5em;
 }
