@@ -1,14 +1,21 @@
-.header{
+.about{
     background-color:var(--lightest);
-    color:var(--darkest);
-    display:flex;
-    align-items:center;
-    justify-content:center;
     margin:1em;
+    display:flex;
 }
-.header_title{
-    
+.about * {
+    width:90%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
 }
-.header_image{
-    object-fit: contain;
+.about_title{
+    background-color:var(--lighter);
+    transition: .3s cubic-bezier(.3, 0, 1, 1);
+}
+.about:hover .about_title{
+    background-color:var(--darkest);
+    color: var(--lightest);
 }

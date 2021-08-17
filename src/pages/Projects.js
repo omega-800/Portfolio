@@ -5,18 +5,15 @@ import './Projects.css';
 function Projects(){
     return(
         <div className="projects">
-            <div className="projects_about section">
-                <h2>Lorem Ipsum</h2>
-            </div>
             <div className="projects_react section">
                 <h2>React</h2>
                 <ImageBox
                     title="Shirt Shop"
-                    image=""
+                    image="content/projekte/html_dad.png"
                 />
                 <ImageBox
                     title="SchoolStuff"
-                    image=""
+                    image="content/projekte/html_dad.png"
                 />
             </div>
             <div className="projects_html section">

@@ -1,49 +1,79 @@
 
 .navbar{
     background-color:var(--lightest);
-    padding: .5em;
     margin:1em;
 }
 .navbar_top{
-    position:sticky;
-    display:flex;
+    display:none;
+    align-content: center;
     align-items: center;
+    text-align: center;
+    flex-direction: row;
     justify-content:space-around;
+    flex-wrap: wrap;
 }
-.navbar_top a:hover{
-    background-color: var(--lighter);
+.show_navbar_top{
+    display:flex;
 }
 .navbar_top_link{
+    flex-grow: 1;
     text-decoration: none;
     color:var(--darkest);
     font-size: 1.5rem;
     font-weight: 600;
-}
-.navbar_top_open{
-    color:var(--darkest);
-    font-size: 1.5rem;
-    font-weight: 600;
     cursor:pointer;
+    transition: .3s cubic-bezier(.3, 0, 1, 1);
+}
+.navbar_top_link:hover{
+    background-color: var(--darkest);
+    color:var(--lightest);
+    flex-grow:2;
 }
 .navbar_content{
     height:0;
     background-color: var(--lightest);
-    position:relative;
     display: none;
 }
-.navbar_content_close{
-    border:none;
-    color:var(--darkest);
-    background-color: var(--lighter);
+.navbar_content_close, .navbar_content_logout{
+    margin:0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: .3s cubic-bezier(.3, 0, 1, 1);
 }
 .show_navbar{
-    height:100vh;
+    height:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:space-around;
 }
 .navbar_content_link {
+    margin:0;
+    padding:0;
     text-decoration: none;
     color:var(--darkest);
+    transition: .3s cubic-bezier(.3, 0, 1, 1);
+    font-size: 1.5em;
+}
+.navbar_content_link:hover{ 
+  -webkit-text-decoration: var(--darkest) solid underline;
+  text-decoration: var(--darkest) solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+}
+.navbar_list{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.navbar_list_list{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.navbar_name{
+    padding-bottom:1rem;
+    font-size:1.5em;
 }

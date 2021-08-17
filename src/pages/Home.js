@@ -7,17 +7,16 @@ function Home(){
             <div className="home_about section">
 				<div className="box">
 					<div className="box_title">
-						<h3>Guten Tag! Ich bin Georgiy Shevoroshkin,</h3>
+						<h4>Über mich</h4>
 					</div>
 					<div className="box_content">
-						<h4>ein motivierter Schüler und leidenschaftlicher Programmierer aus der IMS Hottingen. Auf dieser Webseite sind mein Lebenslauf, meine Attestate und Projekte zu sehen. Sie finden auch viele weitere Informationen über meine Freizeitbeschäftigungen, Interessen und Fakten über mich, die auf den Bewerbungsunterlagen nicht zu sehen sind.</h4>
 						<img src={process.env.PUBLIC_URL + "content/profilepic/profilepic.jpg"} alt="Portrait"/> 
 						<button type="submit" className="dwnld">Lebenslauf PDF</button>
 					</div>
 				</div>
 				<div className="box">	
 					<div className="box_title">
-						<h4>Über mich</h4>
+						<h4>Infos</h4>
 					</div>
 					<div className="box_content">
 						<h4>Personalien</h4>

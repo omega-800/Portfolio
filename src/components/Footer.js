@@ -4,7 +4,12 @@ import './Footer.css';
 function Footer(){
     return(
         <div className="footer">
-            <h1>Footer</h1>
+            <div>
+                <h4>Kontakt</h4>
+            </div>
+            <div>
+                <h4>Referenzen</h4>
+            </div>
         </div>
     )
 }

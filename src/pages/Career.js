@@ -10,7 +10,7 @@ function Career(){
             <div className="career_web section">
                 <div className="box">
 					<div className="box_title">
-						<h2>Webscraping und Automatisation</h2>
+						<h4>Webscraping und Automatisation</h4>
 					</div>
 					<div className="box_content">
                         <p>Auftraggeber: Ernesto Vargas</p>
@@ -21,7 +21,7 @@ function Career(){
 				</div>
                 <div className="box">
 					<div className="box_title">
-						<h2>Immobilienvermietung</h2>
+						<h4>Immobilienvermietung</h4>
 					</div>
 					<div className="box_content">
                         <p>Auftraggeber: Vater</p>
@@ -32,7 +32,7 @@ function Career(){
 				</div>
                 <div className="box">
 					<div className="box_title">
-						<h2>E-Commerce Website</h2>
+						<h4>E-Commerce Website</h4>
 					</div>
 					<div className="box_content">
                         <p>Auftraggeber: JMBF Consulting</p>
@@ -43,7 +43,7 @@ function Career(){
 				</div>
                 <div className="box">
 					<div className="box_title">
-						<h2>Bitcointracker</h2>
+						<h4>Bitcointracker</h4>
 					</div>
 					<div className="box_content">
                         <p>Auftraggeber: Cubera Solutions AG</p>
@@ -54,7 +54,7 @@ function Career(){
 				</div>
                 <div className="box">
 					<div className="box_title">
-						<h2>Homepage RusFrauenTreff</h2>
+						<h4>Homepage RusFrauenTreff</h4>
 					</div>
 					<div className="box_content">
                         <p>Auftraggeber: RusFrauenTreff</p>

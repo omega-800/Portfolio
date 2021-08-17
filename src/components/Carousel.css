@@ -49,11 +49,11 @@ img{
   }
 
   .carousel__arrow--left {
-    margin-right:2.5em;
+    margin-right:5px;
   }
 
   .carousel__arrow--right {
-    margin-left:2.5em;
+    margin-left:5px;
   }
 
 .carousel__indicators {

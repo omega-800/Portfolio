@@ -2,6 +2,8 @@
   transform: scale(1.01);
   transition: .1s;
   box-shadow: 3px 3px 5px 0 var(--darkest);
+  transition: .3s cubic-bezier(.3, 0, 1, 1);
+  cursor: pointer;
 }
 .imgbox_title{
   width: 90%;
@@ -10,9 +12,13 @@
   display: flex;
   justify-content: center;
   color:var(--darkest);
+  transition: .3s cubic-bezier(.3, 0, 1, 1);
 }
-.imgbox_title h4,
-.imgbox_title h3{
+.imgbox:hover .imgbox_title{
+  background-color: var(--darkest);
+  color:var(--lightest);
+}
+.imgbox_title *{
   margin:0;
 }
 .imgbox_content{
@@ -39,4 +45,5 @@
   align-items:center;
   text-align: justify;
   margin: .5em;
+  transition: .3s cubic-bezier(.3, 0, 1, 1);
 }

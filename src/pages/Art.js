@@ -98,7 +98,7 @@ function Art(){
             <div className="art_other section">
                 <h2>Weitere Kunstwerke</h2>
                 <Carousel
-                    title=">Abgesehen von den Oberen Kategorien, befasse ich mich gern mit anderen Bereichen in der Kunst."
+                    title="Abgesehen von den Oberen Kategorien, befasse ich mich gern mit anderen Bereichen in der Kunst."
                     slides={otherSlideImages}
                 />
             </div>
