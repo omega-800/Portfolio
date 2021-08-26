@@ -10,13 +10,14 @@
     text-align: center;
     flex-direction: row;
     justify-content:space-around;
-    flex-wrap: wrap;
 }
 .show_navbar_top{
     display:flex;
 }
 .navbar_top_link{
     flex-grow: 1;
+    margin:0;
+    padding:0;
     text-decoration: none;
     color:var(--darkest);
     font-size: 1.5rem;
@@ -27,7 +28,6 @@
 .navbar_top_link:hover{
     background-color: var(--darkest);
     color:var(--lightest);
-    flex-grow:2;
 }
 .navbar_content{
     height:0;

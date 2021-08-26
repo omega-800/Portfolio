@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 import './Home.css';
 
 function Home(){
@@ -14,7 +15,7 @@ function Home(){
 						<button type="submit" className="dwnld">Lebenslauf PDF</button>
 					</div>
 				</div>
-				<div className="box">	
+				<div className="box">
 					<div className="box_title">
 						<h4>Infos</h4>
 					</div>

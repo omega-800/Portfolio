@@ -31,13 +31,10 @@ function Certificates(){
       ];
     return(
         <div className="certificates">
-            <div className="certificates_about section">
-                <h2>Lorem Ipsum</h2>
-            </div>
             <div className="certificates_school section">
                 <h2>Zeugnisse</h2>
                 <Carousel 
-                    title="Zeugnisse des Gymnasiums, Sekundarschule und Informatikmittelschule"
+                    title="Zeugnisse des Gxymnasiums, Sekundarschule und Informatikmittelschule"
                     slides={schoolSlideImages}
                 />
             </div>
